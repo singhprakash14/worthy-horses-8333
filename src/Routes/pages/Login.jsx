@@ -2,14 +2,15 @@ import { Button, ButtonGroup, Checkbox, Divider, Flex, FormControl, FormLabel, H
 import React, { useContext, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import AppContext from '../../context/Appcontext';
-
+// import Loader from '../components/SmallComponents/Loader';
+// import { AuthContext } from '../Context/AuthContext';
 
 
 const Login = () => {
 
 const {LoginUser,
 LogOutUser }=useContext(AppContext)
-
+  // const {LoginUser} = useContext(AuthContext)
 
   const [name,SetName] = useState("")
 
@@ -37,6 +38,10 @@ LogOutUser }=useContext(AppContext)
   };
 
 
+
+
+////////////////////////LOADER //////////////////////////////
+// is Loading   // 
 const [isLoading, setIsLoading] = useState(true);
 
 setTimeout(() => {
@@ -45,16 +50,19 @@ setIsLoading(false)
 }, 1500);
  
 
-
+// console.log(data)
 
 if(isLoading){
 
  return (  
-  
+    // <Loader />
     <h1>b</h1>
    ) 
 
 }
+
+
+////////////////////////LOADER //////////////////////////////
 
 
 
