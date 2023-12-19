@@ -133,13 +133,6 @@ MyGlamm Clone is MERN Stack e-commerce web application that allows you to buy Co
 
 <br />
 
-## Test Coupon Code
-```
-GLAMM5 (for 5% Off)
-
-
-```
-
 ## Razorpay test payment Cards
 
 [Click here to use the razorpay testing payment methods](https://razorpay.com/docs/payments/payments/test-card-upi-details/)
@@ -163,24 +156,6 @@ This project was built using React, Redux, Chakra UI, HTML, CSS, JavaScript, Res
 - NPM
 - Node JS
 - MongoDB
-
-### Setup
-
-
-The project repository can be found in [GitHub link](https://github.com/Saurabhsanjay/MyglammClone) or just clone the project using this command.
-
-
-```
-Using HTTPS
-
-# git clone https://github.com/Saurabhsanjay/MyglammClone
-```
-
-+ Open terminal on your workspace with
-
-```
-
-
 
 
 ## Install
