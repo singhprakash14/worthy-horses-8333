@@ -82,8 +82,7 @@ MyGlamm Clone is MERN Stack e-commerce web application that allows you to buy Co
 
 
 ## 🚀 Features
-- Login and Signup User Account
-- JWT (Json Web Token) Authentication and BcryptJS Password Hashing 
+- Login and Signup User Account 
 - Product Filters Based on Price, Category
 - Product Sorting Based on Price, Rating and Name
 - Product Filtering and Sorting works together 
@@ -94,7 +93,7 @@ MyGlamm Clone is MERN Stack e-commerce web application that allows you to buy Co
 - Address Management
 - Order Summary
 - Coupons provided for discount
-- Razorpay Payment Gateway
+
 
 
 <br />
@@ -235,19 +234,6 @@ To run the application got to the client folder and run the following command:
 npm start
 ```
 
-### Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file in server folder
-
-`JWT_ACCESS_KEY`
-
-`MONGO_PATH`
-
-`RAZORPAY_KEY_ID`
-
-`RAZORPAY_KEY_SECRET`
-
-
 
 ### Tools used on this project
 
@@ -257,13 +243,6 @@ To run this project, you will need to add the following environment variables to
 - Razorpay Dashboard to monitor payments
 
 <br />
-
-
-
-
-
-© 2022 Saurabh Ubale
-
 
 
 ## Show your support
